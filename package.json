@@ -1,0 +1,16 @@
+{
+  "name": "cactuspi-control",
+  "version": "0.0.1",
+  "description": "A raspberry pi controller service manages buttons to send curl requests to cactuspi-server.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Danny Lum",
+  "license": "ISC",
+  "dependencies": {
+    "johnny-five": "^1.4.0",
+    "raspi-io": "^11.0.0"
+  }
+}
